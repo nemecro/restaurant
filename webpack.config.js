@@ -20,8 +20,8 @@ module.exports = {
                 use: "html-loader",
             },
             {
-                test: /\.(svg, png. jpg, jpeg)$/i,
-                use: "asset/resource",
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
             },
         ],
     },
