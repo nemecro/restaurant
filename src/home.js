@@ -1,7 +1,5 @@
 import logo from './images/logo.png'
 
-const content = document.querySelector('#content');
-
 const renderHome = function(){
     const restLogo = document.createElement('img');
     const restHead = document.createElement('h1');

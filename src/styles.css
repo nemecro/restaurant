@@ -48,6 +48,7 @@
 
 :root {
     --chopstick: #FBDC67;
+    --chopstick-d: #fad347;
     --salmon: #F04154;
     --wasabi: #83D065;
     --rice: #F2F2F0;
@@ -93,4 +94,34 @@ h1 {
   font-size: 1.25rem;
   margin: 0 auto;
   text-align: center;
+}
+
+#menu {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  padding: 1rem;
+}
+
+table {
+  font-size: 1.15rem;
+}
+
+thead {
+  background-color: var(--salmon);
+  color: var(--rice);
+}
+
+thead > tr > th {
+  padding: 0.5rem;
+}
+
+tr:nth-child(even){
+  background-color: var(--chopstick-d);
+}
+
+td {
+  padding-right: 3vw;
 }

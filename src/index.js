@@ -1,4 +1,6 @@
 import "./styles.css";
 import { renderHome } from "./home.js";
 
-renderHome();
+const content = document.querySelector('#content');
+
+// renderHome();
