@@ -87,3 +87,10 @@ h1 {
     text-align: center;
     font-size: 3.5rem;
 }
+
+#description {
+  max-width: 60ch;
+  font-size: 1.25rem;
+  margin: 0 auto;
+  text-align: center;
+}
